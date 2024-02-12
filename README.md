@@ -33,14 +33,14 @@ java -jar target/simple-book-catalog-api.jar
 # Usage (kind of documentation)
 
 Once the application is running, you can access the following endpoints:
-    1.  /admin: This endpoint is protected and requires authentication. You can log in using the following credentials:
+  1.  /admin: This endpoint is protected and requires authentication. You can log in using the following credentials:
             - Username: `nikka`
             - Password: `nikka123` (which is encrypted)
-    2. /books: Retrieve a list of all books.
-    3. /books/{id}: Retrieve details of a specific book by its ID.
-    4. /books/add: Add a new book to the catalog.
-    5. /books/update/{id}: Update an existing book.
-    6. /books/delete/{id}: Delete a book from the catalog.
+  2. /books: Retrieve a list of all books.
+  3. /books/{id}: Retrieve details of a specific book by its ID.
+  4. /books/add: Add a new book to the catalog.
+  5. /books/update/{id}: Update an existing book.
+  6. /books/delete/{id}: Delete a book from the catalog.
 
 # Swagger Documentation
 

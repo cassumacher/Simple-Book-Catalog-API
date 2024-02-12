@@ -30,7 +30,7 @@ mvn clean install
 # Run the application:
 java -jar target/simple-book-catalog-api.jar
 
-# Usage
+# Usage (kind of documentation)
 
 Once the application is running, you can access the following endpoints:
         /admin: This endpoint is protected and requires authentication. You can log in using the following credentials:
@@ -42,7 +42,7 @@ Once the application is running, you can access the following endpoints:
         /books/update/{id}: Update an existing book.
         /books/delete/{id}: Delete a book from the catalog.
 
-### Swagger Documentation
+# Swagger Documentation
 
 You can also explore the API documentation using Swagger. Follow these steps:
 
@@ -50,3 +50,16 @@ You can also explore the API documentation using Swagger. Follow these steps:
     http://localhost:8080/swagger-ui.html
 2. You will see the Swagger UI interface, which provides a user-friendly way to interact with the API endpoints.
  Here, you can view the available endpoints, their parameters, and make test requests.
+
+# What is not done..
+
+Search and sorting features: Add the capability to search for books by title or author 
+and sort the list of books, making the API more dynamic and user-friendly.
+
+# Future Improvements
+
+Performance of the queris
+Search feature
+Sorting feature
+Error handling
+

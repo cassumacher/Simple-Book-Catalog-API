@@ -4,6 +4,7 @@ The project focuses on foundational back-end development skills, database manage
 Simple Book Catalog API
 
 This is a RESTful API for a simple book catalog built using Java and Spring Boot. The project focuses on foundational back-end development skills, database management, and project management.
+
 # Installation
 
 To run this project locally, follow these steps:
@@ -29,15 +30,15 @@ java -jar target/simple-book-catalog-api.jar
 # Usage
 
 Once the application is running, you can access the following endpoints:
-    /admin: This endpoint is protected and requires authentication. You can log in using the following credentials:
-        - Username: `nikka`
-        - Password: `nikka123` (which is encrypted)
-    /books: Retrieve a list of all books.
-    /books/{id}: Retrieve details of a specific book by its ID.
-    /books/add: Add a new book to the catalog.
-    /books/update/{id}: Update an existing book.
-    /books/delete/{id}: Delete a book from the catalog.
-Ensure to replace {id} with the actual ID of the book when making requests to specific endpoints.
+        /admin: This endpoint is protected and requires authentication. You can log in using the following credentials:
+            - Username: `nikka`
+            - Password: `nikka123` (which is encrypted)
+        /books: Retrieve a list of all books.
+        /books/{id}: Retrieve details of a specific book by its ID.
+        /books/add: Add a new book to the catalog.
+        /books/update/{id}: Update an existing book.
+        /books/delete/{id}: Delete a book from the catalog.
+    Ensure to replace {id} with the actual ID of the book when making requests to specific endpoints.
 
 ### Swagger Documentation
 

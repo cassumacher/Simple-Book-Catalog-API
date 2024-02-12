@@ -13,7 +13,10 @@ git clone https://github.com/cassumacher/simple-book-catalog-api.git
 Navigate to the project directory:
 cd simple-book-catalog-api
 
-# Database Configuration: Ensure you have PostgreSQL installed and running on your local machine. Update the `application.properties` file with your PostgreSQL database configuration:
+# Database Configuration
+
+Ensure you have PostgreSQL installed and running on your local machine.
+Update the `application.properties` file with your PostgreSQL database configuration:
 
     properties
     spring.datasource.url=jdbc:postgresql://localhost:5432/your_database_name
@@ -38,7 +41,6 @@ Once the application is running, you can access the following endpoints:
         /books/add: Add a new book to the catalog.
         /books/update/{id}: Update an existing book.
         /books/delete/{id}: Delete a book from the catalog.
-    Ensure to replace {id} with the actual ID of the book when making requests to specific endpoints.
 
 ### Swagger Documentation
 
